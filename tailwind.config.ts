@@ -11,6 +11,7 @@ export default {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        greenButton: "#4CAF4F",
       },
     },
   },
