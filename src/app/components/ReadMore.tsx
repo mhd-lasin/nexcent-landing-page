@@ -27,16 +27,13 @@ const ReadMore = () => {
           />
         
           {/* Card 1 */}
-          <div className="absolute bottom-[-30px] left-1/2 transform -translate-x-1/2 p-[11.14px_0px_0px_0px] bg-white shadow-lg rounded-[5.57px_0px_0px_0px] w-[220.65px] h-[123.55px] z-10">
+          <div className="absolute bottom-[-30px] left-1/2 transform -translate-x-1/2 p-[11.14px_0px_0px_0px] bg-gray-50 shadow-lg rounded-[5.57px_0px_0px_0px] w-[220.65px] h-[123.55px] z-10">
             <div className="flex flex-col items-center">
               <p className="font-[600] text-[13.92px] leading-[19.49px] text-center" style={{ fontFamily: "Inter", color: "rgba(113, 113, 113, 1)" }}>
-                Creating Streamlined Safeguarding Processes with OneRen
+                Creating Streamlined <br></br>Safeguarding Processes with OneRen
               </p>
               <a href="#" className="mt-4 flex items-center text-green-500 font-semibold">
-                Read more
-                <svg xmlns="http://www.w3.org/2000/svg" className="w-5 h-5 ml-2" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                  <path d="M9 18l6-6-6-6"></path>
-                </svg>
+                Readmore →
               </a>
             </div>
           </div>
@@ -54,16 +51,13 @@ const ReadMore = () => {
           />
         
           {/* Card 2 */}
-          <div className="absolute bottom-[-30px] left-1/2 transform -translate-x-1/2 p-[11.14px_0px_0px_0px]  bg-white shadow-lg rounded-[5.57px_0px_0px_0px] w-[220.65px] h-[123.55px] z-10">
+          <div className="absolute bottom-[-30px] left-1/2 transform -translate-x-1/2 p-[11.14px_0px_0px_0px]  bg-gray-50 shadow-lg rounded-[5.57px_0px_0px_0px] w-[220.65px] h-[123.55px] z-10">
             <div className="flex flex-col items-center">
               <p className="font-[600] text-[13.92px] leading-[19.49px] text-center" style={{ fontFamily: "Inter", color: "rgba(113, 113, 113, 1)" }}>
-                What are your safeguarding responsibilities and how can you manage them?
+                What are your safeguarding responsibilities and how can <br></br> you manage them?
               </p>
               <a href="#" className="mt-4 flex items-center text-green-500 font-semibold">
-                Read more
-                <svg xmlns="http://www.w3.org/2000/svg" className="w-5 h-5 ml-2" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                  <path d="M9 18l6-6-6-6"></path>
-                </svg>
+                Readmore →
               </a>
             </div>
           </div>
@@ -81,16 +75,13 @@ const ReadMore = () => {
           />
         
           {/* Card 3 */}
-          <div className="absolute bottom-[-30px] left-1/2 transform -translate-x-1/2 p-[11.14px_0px_0px_0px] bg-white shadow-lg rounded-[5.57px_0px_0px_0px] w-[220.65px] h-[123.55px] z-10">
+          <div className="absolute bottom-[-30px] left-1/2 transform -translate-x-1/2 p-[11.14px_0px_0px_0px] bg-gray-50 shadow-lg rounded-[5.57px_0px_0px_0px] w-[220.65px] h-[123.55px] z-10">
             <div className="flex flex-col items-center">
               <p className="font-[600] text-[13.92px] leading-[19.49px] text-center" style={{ fontFamily: "Inter", color: "rgba(113, 113, 113, 1)" }}>
-                Revamping the Membership Model with Triathlon Australia
+                Revamping the Membership <br></br> Model with Triathlon <br></br> Australia
               </p>
               <a href="#" className="mt-4 flex items-center text-green-500 font-semibold">
-                Read more
-                <svg xmlns="http://www.w3.org/2000/svg" className="w-5 h-5 ml-2" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                  <path d="M9 18l6-6-6-6"></path>
-                </svg>
+                Readmore →
               </a>
             </div>
           </div>
