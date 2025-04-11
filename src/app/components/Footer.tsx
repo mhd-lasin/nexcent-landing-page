@@ -6,27 +6,26 @@ import socialicon4 from "../assets/socialicon4.png";
 import send from "../assets/send.png";
 
 import Image from "next/image";
+import Link from "next/link";
 
 const Footer = () => {
   return (
     <div style={{ backgroundColor: "rgba(38, 50, 56, 1)" }}>
-      <div className="max-w-screen-xl mx-auto px-4 sm:px-6 flex flex-wrap justify-center flex justify-between mt-5">
+      <div className="max-w-screen-xl mx-auto px-4 sm:px-6 flex flex-wrap justify-center justify-between mt-5">
         
-        {/* Logo and Links */}
+        {/* Logo and Info */}
         <div className="p-5">
-          {/* Icon and Nexcent Text */}
           <div className="flex items-center mb-3">
             <Image src={footericon} alt="Icon" width={50} height={50} className="mr-2" />
             <h2 className="text-3xl font-bold" style={{ color: "rgba(255, 255, 255, 1)" }}>Nexcent</h2>
           </div>
           <p className="text-left mt-4 p-5" style={{ color: "rgba(255, 255, 255, 1)", fontFamily: "Inter", fontSize: "13.74px", fontWeight: "400", lineHeight: "13.92px" }}>
-           Copyright © 2020 Landify UI Kit.
+            Copyright © 2020 Landify UI Kit.
           </p>
           <p className="ml-4" style={{ color: "rgba(255, 255, 255, 1)", fontFamily: "Inter", fontSize: "13.74px", fontWeight: "400", lineHeight: "13.92px" }}>
             All rights reserved.
           </p>
 
-          {/* Social Icons */}
           <div className="flex space-x-2 mt-8">
             <Image src={socialicon1} alt="Social Icon 1" width={38} height={38} />
             <Image src={socialicon2} alt="Social Icon 2" width={38} height={38} />
@@ -35,48 +34,29 @@ const Footer = () => {
           </div>
         </div>
 
-        {/* Other Sections */}
+        {/* Company Links */}
         <div className="p-5">
-          <h2 className="text-lg font-medium" style={{ color: "rgba(255, 255, 255, 1)" }}>Company</h2>
-          <a className="my-3 block" href="/#" style={{ color: "rgba(255, 255, 255, 1)" }}>
-            About us
-          </a>
-          <a className="my-3 block" href="/#" style={{ color: "rgba(255, 255, 255, 1)" }}>
-            Blog
-          </a>
-          <a className="my-3 block" href="/#" style={{ color: "rgba(255, 255, 255, 1)" }}>
-            Contact us
-          </a>
-          <a className="my-3 block" href="/#" style={{ color: "rgba(255, 255, 255, 1)" }}>
-            Pricing
-          </a>
-          <a className="my-3 block" href="/#" style={{ color: "rgba(255, 255, 255, 1)" }}>
-            Testimonials
-          </a>
+          <h2 className="text-lg font-medium text-white">Company</h2>
+          <Link className="my-3 block text-white" href="/#">About us</Link>
+          <Link className="my-3 block text-white" href="/#">Blog</Link>
+          <Link className="my-3 block text-white" href="/#">Contact us</Link>
+          <Link className="my-3 block text-white" href="/#">Pricing</Link>
+          <Link className="my-3 block text-white" href="/#">Testimonials</Link>
         </div>
 
+        {/* Support Links */}
         <div className="p-5">
-          <div className="text-lg font-medium" style={{ color: "rgba(255, 255, 255, 1)" }}>Support</div>
-          <a className="my-3 block" href="/#" style={{ color: "rgba(255, 255, 255, 1)" }}>
-            Help Center
-          </a>
-          <a className="my-3 block" href="/#" style={{ color: "rgba(255, 255, 255, 1)" }}>
-            Terms of service
-          </a>
-          <a className="my-3 block" href="/#" style={{ color: "rgba(255, 255, 255, 1)" }}>
-            Legal
-          </a>
-          <a className="my-3 block" href="/#" style={{ color: "rgba(255, 255, 255, 1)" }}>
-            Privacy Policy
-          </a>
-          <a className="my-3 block" href="/#" style={{ color: "rgba(255, 255, 255, 1)" }}>
-            Status
-          </a>
+          <h2 className="text-lg font-medium text-white">Support</h2>
+          <Link className="my-3 block text-white" href="/#">Help Center</Link>
+          <Link className="my-3 block text-white" href="/#">Terms of service</Link>
+          <Link className="my-3 block text-white" href="/#">Legal</Link>
+          <Link className="my-3 block text-white" href="/#">Privacy Policy</Link>
+          <Link className="my-3 block text-white" href="/#">Status</Link>
         </div>
 
-        {/* Stay Updated Section */}
+        {/* Stay Updated */}
         <div className="p-5">
-          <div className="text-lg font-medium" style={{ color: "rgba(255, 255, 255, 1)" }}>Stay up to date</div>
+          <h2 className="text-lg font-medium text-white">Stay up to date</h2>
           <div className="relative my-3">
             <input
               className="rounded p-2 w-[230px] h-[35px] bg-gray-600 text-white outline-none pr-10"
